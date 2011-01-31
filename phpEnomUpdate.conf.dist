@@ -1,0 +1,21 @@
+<?php
+/**
+ * Configuration for phpEnomUpdate
+ *
+ * Basically, just an array of zones to update with associated passwords, and
+ * host names to set.
+ *
+ * Example entry:
+ *
+ * $zones[] = array(
+ *              'zone' => 'example.com',
+ *              'hosts' => array('host1', 'host2'),
+ *              'password' => 'foo');
+ *
+ */
+
+// Set this to the URL used to retrieve your IP address.
+$get_ip = 'http://checkip.dyndns.org';
+
+// Set this to the URL of your DNS provider that is used to update your IP.
+$set_ip = 'http://dynamic.name-services.com';

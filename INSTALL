@@ -1,0 +1,53 @@
+==========================
+ Installing phpEnomUpdate
+==========================
+
+:Last update:   $Date: 2007/12/22 19:37:24 $
+:Revision:      $Revision: 1.1 $
+
+This document contains instructions for installing phpEnomUpdate.
+
+Obtaining phpEnomUpdate
+=======================
+
+phpEnomUpdate can be obtained from TheUpstairsRoom website, at
+
+    http://theupstairsroom.com
+
+
+Prerequisites
+=============
+
+phpEnomUpdate **requires** the following:
+
+1. The following PEAR packages:
+
+    a. HTTP_Request
+
+       Used to send and receive HTTP requests for setting the IP address.
+
+    b. Console_Getopt
+
+        Used to obtain commandline switches.
+
+2. The following Horde packages.
+   (See http://pear.horde.org for instruction on installing)
+
+   a. CLI
+
+        Used for interfacing with the command line.
+
+INSTALLATION
+============
+
+Place the file `phpEnomUpdate.php` somewhere in your path and be sure it's
+executable.  Edit the file `phpEnomUpdate.conf.dist` and save it as
+`phpEnomUpdate.conf`.  The script automatically looks for the file in
+`/etc/phpEnomUpdate.conf`. You can specify a different location on the command
+line by specifying the --conf=[filepath] option.
+
+
+Obtaining Support
+=================
+
+Drop an email to <mrubinsk@horde.org>

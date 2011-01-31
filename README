@@ -1,0 +1,32 @@
+What is phpEnomUpdate?
+======================
+
+:Last update:   $Date: 2007/12/22 19:42:59 $
+:Revision:      $Revision: 1.2 $
+:Contact:       mike@theupstairsroom.com
+
+phpEnomUpdate is simple command line script used to update dynamic DNS providers
+that follow the name-services.com style 'enom' interface.
+
+Obtaining phpEnomUpdate
+-----------------------
+
+For information and downloads, see
+
+  http://theupstairsroom.com
+
+
+INSTALLATION
+------------
+
+Read the included INSTALL file.
+
+
+USAGE
+-----
+
+Run
+
+  phpEnomUpdate --help
+
+for usage instructions.
